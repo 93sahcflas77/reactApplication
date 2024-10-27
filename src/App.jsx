@@ -11,6 +11,7 @@ import HierarchicalStructure from "../Component/HierarchicalStructure";
 import Reusability from "../Component/Reusability";
 import SeparationofConcerns from "../Component/SeparationofConcerns";
 import JavascriptXML from "../Component/JavascriptXML";
+import Composition from "../Component/Composition";
 
 function App() {
   
@@ -24,7 +25,8 @@ function App() {
       {/* < HierarchicalStructure /> */}
       {/* < Reusability /> */}
       {/* <SeparationofConcerns /> */}
-      < JavascriptXML />
+      {/* < JavascriptXML /> */}
+      < Composition />
     </>
   )
 }
