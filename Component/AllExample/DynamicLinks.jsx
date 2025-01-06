@@ -48,3 +48,8 @@ function DynamicLinks() {
 }
 
 export default DynamicLinks
+
+
+const abc = Math.floor(Date.now() / 1000);
+console.log(abc);
+
