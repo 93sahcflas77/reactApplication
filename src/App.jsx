@@ -23,6 +23,7 @@ import LazyLoading from "../Component/RecatRouterDom/LazyLoading/LazyLoading";
 import Outlet from "../Component/RecatRouterDom/Outlet/Outlet";
 import DynamicLinks from "../Component/AllExample/DynamicLinks";
 import UseContextExample from "../Component/AllExample/UseContext/UseContextExample";
+import UseContextExample2 from "../Component/AllExample/UseContext/UseContextExample2";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -116,7 +117,8 @@ function App() {
       </BrowserRouter> */}
 
 
-    <UseContextExample/>      
+    {/* <UseContextExample/>       */}
+    <UseContextExample2/>
 
     </>
   )
