@@ -27,6 +27,7 @@ import UseContextExample2 from "../Component/AllExample/UseContext/UseContextExa
 import UseContextExample3 from "../Component/AllExample/UseContext/UseContextExample3";
 import UseContextExample4 from "../Component/AllExample/UseContext/UseContextExample4";
 import UseContextExample5 from "../Component/AllExample/UseContext/UseContextExample5";
+import TaskApp from "../Component/AllExample/UseContext/TaskApp/TaskApp";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -124,7 +125,8 @@ function App() {
     {/* <UseContextExample2/> */}
     {/* <UseContextExample3/> */}
     {/* <UseContextExample4/> */}
-    <UseContextExample5/>
+    {/* <UseContextExample5/> */}
+    <TaskApp/>
 
     </>
   )
