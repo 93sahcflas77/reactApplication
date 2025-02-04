@@ -24,6 +24,8 @@ import Outlet from "../Component/RecatRouterDom/Outlet/Outlet";
 import DynamicLinks from "../Component/AllExample/DynamicLinks";
 import UseContextExample from "../Component/AllExample/UseContext/UseContextExample";
 import UseContextExample2 from "../Component/AllExample/UseContext/UseContextExample2";
+import UseContextExample3 from "../Component/AllExample/UseContext/UseContextExample3";
+import UseContextExample4 from "../Component/AllExample/UseContext/UseContextExample4";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -118,7 +120,9 @@ function App() {
 
 
     {/* <UseContextExample/>       */}
-    <UseContextExample2/>
+    {/* <UseContextExample2/> */}
+    {/* <UseContextExample3/> */}
+    <UseContextExample4/>
 
     </>
   )
